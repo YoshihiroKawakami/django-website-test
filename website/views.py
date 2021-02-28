@@ -16,12 +16,9 @@ class AboutView(TemplateView):
     def get_context_data(self):
         ctxt = super().get_context_data()
         ctxt["skills"] = [
+            "ヨーヨー",
             "Python",
-            "C++",
-            "Javascript",
-            "Rust",
-            "Ruby",
-            "PHP"
+            "パソコン"
         ]
         ctxt["num_services"] = 1234567
         return ctxt
